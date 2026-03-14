@@ -1,0 +1,10 @@
+# ── Core PDF processing ──────────────────────────────────────────────────────
+pdfplumber>=0.10.0          # primary text + page-render extraction
+Pillow>=10.0.0              # image handling / JPEG encoding
+PyMuPDF>=1.23.0             # optional faster text extraction (fitz); falls back gracefully
+
+# ── Web framework ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0        # loads .env file automatically
